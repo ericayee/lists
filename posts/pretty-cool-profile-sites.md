@@ -1,0 +1,43 @@
+---
+date: "2021-02-26"
+title: Pretty Cool Profile Sites
+---
+
+> assorted profile sites I enjoy and admire
+
+- [Robby Leonardi](http://www.rleonardi.com/interactive-resume/)
+- [Devon Maloney](https://www.devonmaloney.com/)
+- [Reshama Shaikh](https://reshamas.github.io/)
+- [Lucio Villa](luciovilla.com)
+- [Brian T. Jacobs](http://briantjacobs.com/)
+- [Ryan Best](https://ryanabest.com/)
+- [Jane Manchun Wong](https://wongmjane.com/)
+- [Alex Duner](http://duner.me/)
+- [Chen Hui Jing](https://huijing.github.io/)
+- [Adriana Lacy](https://www.adrianalacy.com/)
+- [Siddarth Sharma](https://animasugit.com/cmdportfolio/)
+- [Cassidy Williams](https://cassidoo.co/)
+- [Katie Park](https://katiepark.github.io/)
+- [Tyler Machado](https://www.tylermachado.com/)
+- [Amelia Wattenberger](https://wattenberger.com/)
+- [Laurie Voss](https://seldo.com)
+- [Ajay Karwal](https://ajaykarwal.com/)
+- [Jason Lengstorf](https://www.jason.af/)
+- [Brad Garropy](https://bradgarropy.com/)
+- [Ashley Seo](http://www.ashleyseo.com/)
+- [Gleb Sabirzyanov](https://gleb.sexy/)
+- [Jesse Howe](https://jessechowe.github.io/)
+- [Ryo Lu](https://ryo.lu/)
+- [Kelly Yang](https://www.kellyyang.com/)
+- [Emily Brick](http://emilybrick.me/)
+- [Andreas Mehlsen](https://andreasbm.github.io/)
+- [Shirley Wu](https://shirleywu.studio/)
+- [Melanie Richards](https://melanie-richards.com/)
+- [Amelia Lewis](https://amelia.design/)
+- [Toni Gemayel](https://tonigemayel.com/)
+- [Robin Rendle ](https://www.robinrendle.com/)
+- [Lucas Timmons](http://lucastimmons.com/)
+- [Kat Fukui](https://www.tinykat.cafe/)
+- [Rafael Conde](https://rafa.design/)
+- [Brian Lovin](https://brianlovin.com/)
+- [Caroline Luu](https://www.carolineluu.com/)

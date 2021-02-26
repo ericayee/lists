@@ -3,6 +3,6 @@ layout: homepage.liquid
 title: Horsin' Around
 ---
 
-# Welcome to Hollywoo
+# Unordered lists
 
-Hello. I am BoJack. Horseman, obviously
+Irregularly updated by [Erica Yee](https://ericayee.com/)
