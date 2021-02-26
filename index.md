@@ -1,6 +1,6 @@
 ---
 layout: homepage.liquid
-title: Horsin' Around
+title: Unordered Lists | Erica Yee
 ---
 
 # Unordered lists
