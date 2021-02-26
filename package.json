@@ -8,7 +8,8 @@
     "sass": "node-sass --output  _site/styles/ styles/",
     "sass:watch": "npm run sass && npm run sass -- -w",
     "clean": "rm -rf _site",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d _site"
   },
   "keywords": [],
   "author": "Erica Yee",
@@ -21,5 +22,6 @@
   "dependencies": {
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.6",
     "gh-pages": "^3.1.0"
-  }
+  },
+  "homepage": "/lists"
 }
