@@ -13,7 +13,8 @@
   <body>
     <div class="container">
       {{ content }}
-      <h2 class="category">Lists</h2>
+      {% comment %} <h2 class="category">Lists</h2> {% endcomment %}
+      <hr />
       <ul class="posts">
         {% for post in collections.posts reversed %}
         <li class="post">

@@ -5,7 +5,7 @@
     margin-bottom: 16px;
     .post-date {
       font-size: 14px;
-      color: #585858;
+      color: #c8bcbc;
     }
   }
 
@@ -40,6 +40,9 @@
 
   .back-link {
     margin: 16px 0 24px 0;
+    a {
+      color: #8e8e8e;
+    }
   }
 
   // Select all text wrapped in `` in markdown - generated a `code` tag without a language class

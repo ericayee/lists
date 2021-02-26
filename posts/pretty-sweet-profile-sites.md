@@ -1,6 +1,6 @@
 ---
 date: "2021-02-26"
-title: Pretty Cool Profile Sites
+title: Pretty Sweet Profile Sites
 ---
 
 > assorted profile sites I enjoy and admire
