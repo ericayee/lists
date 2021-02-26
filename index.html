@@ -5,31 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="Description" content="Arpit Batra" />
-    <title>{{ title }}</title>
+    <title>Horsin' Around</title>
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./styles/common.css" />
     <link rel="stylesheet" href="./styles/homepage.css" />
   </head>
   <body>
     <div class="container">
-      {{ content }}
-      {% comment %} <h2 class="category">Lists</h2> {% endcomment %}
+      <h1>Unordered lists</h1>
+<p>Irregularly updated by <a href="https://ericayee.com/">Erica Yee</a></p>
+
+      
       <hr />
       <ul class="posts">
-        {% for post in collections.posts reversed %}
+        
         <li class="post">
           <span class="post-title">
-            {% if post.data.externalLink %}
-            <a href="{{ post.data.externalLink }}" target="__blank">{{ post.data.title }}</a>
-            {% else %}
-            <a href="{{ post.url }}">{{ post.data.title }}</a>
-            {% endif %}
+            
+            <a href="/posts/pretty-sweet-profile-sites/">Pretty Sweet Profile Sites</a>
+            
           </span>
           <span class="post-date">
-            {{ post.date | date: '%b %Y' | downcase }}
+            feb 2021
           </span>
         </li>
-        {% endfor %}
+        
+        <li class="post">
+          <span class="post-title">
+            
+            <a href="/posts/awesome-apps/">Awesome Apps</a>
+            
+          </span>
+          <span class="post-date">
+            feb 2021
+          </span>
+        </li>
+        
       </ul>
     </div>
   </body>

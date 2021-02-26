@@ -1,46 +1,35 @@
 ::selection {
   color: white;
-  background-color: #B64FC8;
-}
+  background-color: #B64FC8; }
 
 ::-moz-selection {
   color: white;
-  background-color: #B64FC8;
-}
+  background-color: #B64FC8; }
 
 * {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 body {
   font-family: "IBM Plex Sans", sans-serif;
   color: #eaeaea;
-  background: #202945;
-}
+  background: #202945; }
 
 .container {
-  margin: 40px 24%;
-  blockquote {
+  margin: 40px 24%; }
+  .container blockquote {
     margin: 16px 0;
     padding: 0 1em;
     color: #FFB2FF;
-    border-left: 0.25em solid;
-  }
-}
+    border-left: 0.25em solid; }
 
 a {
   text-decoration: none;
-  color: #B64FC8;
-
-  &:hover {
+  color: #B64FC8; }
+  a:hover {
     cursor: pointer;
-    text-decoration: underline;
-  }
-}
+    text-decoration: underline; }
 
 @media (min-width: 320px) and (max-width: 767px) {
   .container {
-    margin: 32px 14%;
-  }
-}
+    margin: 32px 14%; } }
