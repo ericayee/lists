@@ -1,0 +1,515 @@
+
+{
+  "header": {
+    "reportVersion": 2,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20210226.151630.5152.0.001.json",
+    "dumpEventTime": "2021-02-26T15:16:30Z",
+    "dumpEventTimeStamp": "1614381390177",
+    "processId": 5152,
+    "threadId": null,
+    "cwd": "C:\\Users\\eeyus\\Documents\\GitHub\\lists",
+    "commandLine": [
+      "node",
+      "C:\\Users\\eeyus\\Documents\\GitHub\\lists\\node_modules\\.bin\\\\..\\@11ty\\eleventy\\cmd.js",
+      "--serve"
+    ],
+    "nodejsVersion": "v12.16.3",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.16.3",
+      "v8": "7.8.279.23-node.35",
+      "uv": "1.34.2",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.16.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1g",
+      "cldr": "36.0",
+      "icu": "65.1",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.3/node-v12.16.3-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.3/node-v12.16.3.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.16.3/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.19041",
+    "osVersion": "Windows 10 Home",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "AMD Ryzen 3 1300X Quad-Core Processor          ",
+        "speed": 3493,
+        "user": 34694296,
+        "nice": 0,
+        "sys": 19574921,
+        "idle": 140661328,
+        "irq": 2770812
+      },
+      {
+        "model": "AMD Ryzen 3 1300X Quad-Core Processor          ",
+        "speed": 3493,
+        "user": 37326921,
+        "nice": 0,
+        "sys": 18078359,
+        "idle": 139525140,
+        "irq": 525125
+      },
+      {
+        "model": "AMD Ryzen 3 1300X Quad-Core Processor          ",
+        "speed": 3493,
+        "user": 33714484,
+        "nice": 0,
+        "sys": 12609437,
+        "idle": 148606515,
+        "irq": 231687
+      },
+      {
+        "model": "AMD Ryzen 3 1300X Quad-Core Processor          ",
+        "speed": 3493,
+        "user": 35364843,
+        "nice": 0,
+        "sys": 12870250,
+        "idle": 146695343,
+        "irq": 313656
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Ethernet 2",
+        "internal": false,
+        "mac": "70:85:c2:63:78:e9",
+        "address": "2600:1700:9580:c4af::df3",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Ethernet 2",
+        "internal": false,
+        "mac": "70:85:c2:63:78:e9",
+        "address": "2600:1700:9580:c4af:fb:e193:2c21:163d",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Ethernet 2",
+        "internal": false,
+        "mac": "70:85:c2:63:78:e9",
+        "address": "fd13:409:6107::df3",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Ethernet 2",
+        "internal": false,
+        "mac": "70:85:c2:63:78:e9",
+        "address": "fd13:409:6107:0:fb:e193:2c21:163d",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Ethernet 2",
+        "internal": false,
+        "mac": "70:85:c2:63:78:e9",
+        "address": "2600:1700:9580:c4af:c99a:cc1f:a95c:ac1e",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Ethernet 2",
+        "internal": false,
+        "mac": "70:85:c2:63:78:e9",
+        "address": "fd13:409:6107:0:c25:c32:eae9:8f07",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Ethernet 2",
+        "internal": false,
+        "mac": "70:85:c2:63:78:e9",
+        "address": "fd13:409:6107:0:209c:86a1:61ce:ac7e",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Ethernet 2",
+        "internal": false,
+        "mac": "70:85:c2:63:78:e9",
+        "address": "fd13:409:6107:0:21b7:9903:4d69:7d55",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Ethernet 2",
+        "internal": false,
+        "mac": "70:85:c2:63:78:e9",
+        "address": "fd13:409:6107:0:6c3b:63b2:2a31:f620",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Ethernet 2",
+        "internal": false,
+        "mac": "70:85:c2:63:78:e9",
+        "address": "fd13:409:6107:0:704b:abf5:6ec0:d0f1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Ethernet 2",
+        "internal": false,
+        "mac": "70:85:c2:63:78:e9",
+        "address": "fd13:409:6107:0:e944:4e03:3482:7bd3",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Ethernet 2",
+        "internal": false,
+        "mac": "70:85:c2:63:78:e9",
+        "address": "fe80::fb:e193:2c21:163d",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 10
+      },
+      {
+        "name": "Ethernet 2",
+        "internal": false,
+        "mac": "70:85:c2:63:78:e9",
+        "address": "192.168.7.144",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "EYEE-DESKTOP"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff624ba2449",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+11577"
+    },
+    {
+      "pc": "0x00007ff624ba69a9",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+29337"
+    },
+    {
+      "pc": "0x00007ff624ba5828",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24856"
+    },
+    {
+      "pc": "0x00007ff624cdd8c2",
+      "symbol": "v8::base::CPU::has_sse+68658"
+    },
+    {
+      "pc": "0x00007ff6254f9bbe",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff6254e1c91",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff6253ae1ec",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff6253b9420",
+      "symbol": "v8::internal::Heap::ProtectUnprotectedMemoryChunks+1312"
+    },
+    {
+      "pc": "0x00007ff6253b5f44",
+      "symbol": "v8::internal::Heap::PageFlagsAreConsistent+3204"
+    },
+    {
+      "pc": "0x00007ff6253ab743",
+      "symbol": "v8::internal::Heap::CollectGarbage+1283"
+    },
+    {
+      "pc": "0x00007ff6253a9db4",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2452"
+    },
+    {
+      "pc": "0x00007ff6253cafbd",
+      "symbol": "v8::internal::Factory::NewFillerObject+61"
+    },
+    {
+      "pc": "0x00007ff625131871",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+1665"
+    },
+    {
+      "pc": "0x00007ff625946c4d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+546637"
+    },
+    {
+      "pc": "0x00007ff625947d43",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+550979"
+    },
+    {
+      "pc": "0x000001e0fcfe47c9",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2153902080,
+    "totalCommittedMemory": 2153902080,
+    "usedMemory": 2142678792,
+    "availableMemory": 45737624,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 2097152,
+        "committedMemory": 2097152,
+        "capacity": 1047456,
+        "used": 412280,
+        "available": 635176
+      },
+      "old_space": {
+        "memorySize": 2140024832,
+        "committedMemory": 2140024832,
+        "capacity": 2131899088,
+        "used": 2131757312,
+        "available": 141776
+      },
+      "code_space": {
+        "memorySize": 1478656,
+        "committedMemory": 1478656,
+        "capacity": 1291360,
+        "used": 1291360,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 1839104,
+        "committedMemory": 1839104,
+        "capacity": 1082240,
+        "used": 1082240,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 8151040,
+        "committedMemory": 8151040,
+        "capacity": 8100008,
+        "used": 8100008,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 2784,
+        "used": 2784,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047456,
+        "used": 0,
+        "available": 1047456
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 1068.91,
+    "kernelCpuSeconds": 1278.94,
+    "cpuConsumptionPercent": 15.3414,
+    "maxRss": 3496570880,
+    "pageFaults": {
+      "IORequired": 13937190,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 3759,
+      "writes": 997
+    }
+  },
+  "libuv": [
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "=C:": "C:\\Users\\eeyus\\Documents\\GitHub\\lists",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\eeyus\\AppData\\Roaming",
+    "APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL": "true",
+    "AUTHOMATIC_SALT": "nevertoosalty",
+    "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_8232_SATCLBVPBIIOBQYW",
+    "CLASSPATH": ".;C:\\Program Files\\Java\\jdk1.8.0_101\\lib;",
+    "COLOR": "1",
+    "COLORTERM": "truecolor",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "EYEE-DESKTOP",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "dp0": "C:\\Users\\eeyus\\Documents\\GitHub\\lists\\node_modules\\.bin\\",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "EDITOR": "notepad.exe",
+    "FORCE_COLOR": "3",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "GIT_ASKPASS": "c:\\Users\\eeyus\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh",
+    "GOOGLE_OAUTH_CLIENT_ID": "459898873361-6u8kqgpciabisjm5lpf1akvqrdbuk1tu.apps.googleusercontent.com",
+    "GOOGLE_OAUTH_CONSUMER_SECRET": "s_NOuKCIw4nanZJ2FUOFE_Pu",
+    "HOME": "C:\\Users\\eeyus",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\eeyus",
+    "INIT_CWD": "C:\\Users\\eeyus\\Documents\\GitHub\\lists",
+    "JAVA_HOME": "C:\\Program Files\\Java\\jdk1.8.0_101",
+    "JDK_HOME": "C:\\Program Files\\Java\\jdk1.8.0_101",
+    "JRE_HOME": "C:\\Program Files\\Java\\jdk1.8.0_101\\jre",
+    "LANG": "en_US.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\eeyus\\AppData\\Local",
+    "LOGONSERVER": "\\\\EYEE-DESKTOP",
+    "NODE": "C:\\Program Files\\nodejs\\node.exe",
+    "NODE_EXE": "C:\\Program Files\\nodejs\\\\node.exe",
+    "NPM_CLI_JS": "C:\\Users\\eeyus\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js",
+    "npm_command": "run-script",
+    "npm_config_cache": "C:\\Users\\eeyus\\AppData\\Local\\npm-cache",
+    "npm_config_globalconfig": "C:\\Users\\eeyus\\AppData\\Roaming\\npm\\etc\\npmrc",
+    "npm_config_init.module": "C:\\Users\\eeyus\\.npm-init.js",
+    "npm_config_init_module": "C:\\Users\\eeyus\\.npm-init.js",
+    "npm_config_metrics_registry": "https://registry.npmjs.org/",
+    "npm_config_node_gyp": "C:\\Users\\eeyus\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js",
+    "npm_config_prefix": "C:\\Users\\eeyus\\AppData\\Roaming\\npm",
+    "npm_config_userconfig": "C:\\Users\\eeyus\\.npmrc",
+    "npm_config_user_agent": "npm/7.6.0 node/v12.16.3 win32 x64",
+    "npm_execpath": "C:\\Users\\eeyus\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js",
+    "npm_lifecycle_event": "serve",
+    "npm_lifecycle_script": "concurrently 'eleventy --serve' 'npm run sass:watch'",
+    "npm_node_execpath": "C:\\Program Files\\nodejs\\node.exe",
+    "npm_package_json": "C:\\Users\\eeyus\\Documents\\GitHub\\lists\\package.json",
+    "npm_package_name": "eleventy-blog-mnml",
+    "npm_package_version": "1.0.0",
+    "NPM_PREFIX_NPM_CLI_JS": "C:\\Users\\eeyus\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js",
+    "NUMBER_OF_PROCESSORS": "4",
+    "NVM_HOME": "C:\\Program Files\\nvm",
+    "NVM_SYMLINK": "C:\\Program Files\\nodejs",
+    "OneDrive": "D:\\OneDrive",
+    "OneDriveConsumer": "D:\\OneDrive",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
+    "OS": "Windows_NT",
+    "Path": "C:\\Users\\eeyus\\Documents\\GitHub\\lists\\node_modules\\.bin;C:\\Users\\eeyus\\Documents\\GitHub\\node_modules\\.bin;C:\\Users\\eeyus\\Documents\\node_modules\\.bin;C:\\Users\\eeyus\\node_modules\\.bin;C:\\Users\\node_modules\\.bin;C:\\node_modules\\.bin;C:\\Users\\eeyus\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Dell\\DW WLAN Card;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\Program Files (x86)\\PharosSystems\\Core;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\xampp\\php;C:\\Apache\\php;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nvm;C:\\Program Files\\nodejs;C:\\Program Files\\nodejs\\;C:\\Program Files\\Java\\jdk1.8.0_101\\bin;C:\\Ruby24-x64\\bin;C:\\Users\\eeyus\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\eeyus\\AppData\\Local\\atom\\bin;C:\\Users\\eeyus\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\eeyus\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\nvm;C:\\Program Files\\nodejs;C:\\Users\\eeyus\\AppData\\Roaming\\npm;C:\\Hugo\\bin;",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC;.RB;.RBW;.CPL",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD",
+    "PROCESSOR_LEVEL": "23",
+    "PROCESSOR_REVISION": "0101",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Users\\eeyus\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\eeyus\\AppData\\Local\\Temp",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.53.2",
+    "TMP": "C:\\Users\\eeyus\\AppData\\Local\\Temp",
+    "USERDOMAIN": "EYEE-DESKTOP",
+    "USERDOMAIN_ROAMINGPROFILE": "EYEE-DESKTOP",
+    "USERNAME": "eeyus",
+    "USERPROFILE": "C:\\Users\\eeyus",
+    "VSCODE_GIT_ASKPASS_MAIN": "c:\\Users\\eeyus\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js",
+    "VSCODE_GIT_ASKPASS_NODE": "C:\\Users\\eeyus\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "VSCODE_GIT_IPC_HANDLE": "\\\\.\\pipe\\vscode-git-7aa60a23a9-sock",
+    "windir": "C:\\WINDOWS",
+    "_prog": "node"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\powrprof.dll",
+    "C:\\WINDOWS\\SYSTEM32\\UMPDC.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\SYSTEM32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\bcryptprimitives.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll"
+  ]
+}
